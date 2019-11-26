@@ -19,4 +19,10 @@ public class UserController {
         return "Hello mt !!!";
     }
 
+    @RequestMapping("/hello3")
+    @ResponseBody
+    public String hello3() {
+        return "111222333 !!!";
+    }
+
 }
