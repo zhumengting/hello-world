@@ -22,7 +22,7 @@ public class UserController {
     @RequestMapping("/hello3")
     @ResponseBody
     public String hello3() {
-        return "111222333 !!!";
+        return "test 111222333 !!!";
     }
 
 }
