@@ -9,6 +9,6 @@ public class AddTest {
     @Test
     public void testAdd() {
         Add add = new Add(1,3);
-        assertTrue( add.getResult() == 3 );
+        assertTrue( add.getResult() == 4 );
     }
 }
