@@ -1,5 +1,8 @@
 package com.zmt.java.calculate;
 
+import javax.annotation.Resource;
+
+@Resource
 public class Add {
     private int a;
     private int b;
